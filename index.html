@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CV Form</h1>
+        <form action="cv.php" method="post">
+           <div class="contracts">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" required>
+           </div>
+
+            <label for="career">Career Object</label>
+            <textarea name="career" id="career" rows="4" cols="70" placeholder="write here.."></textarea>
+
+
+            <div class="education">
+            <h2>Educational Background</h2>
+            
+                 <h2>Choose your Degree:</h2>
+                <input type="text" name="degree" id="degree" placeholder="Any Bechelor degree">
+
+                <label for="Institute">Institute Name:</label>
+                <input type="text" id="Institute" name="Institute">
+
+                 <label for="University">University:</label>
+                 <input type="text" id="University" name="University">
+
+                 <label for="subject">Subject:</label>
+                 <input type="text" id="subject" name="subject">
+
+                 <label for="session">Session:</label>
+                 <input type="text" id="session" name="session">
+         
+
+                <h2>H.S.C(Higher Secondary Certificate)</h2>
+                <label for="collage">Institute Name:</label>
+                <input type="text" id="collage" name="collage">
+
+                 <label for="board">Board:</label>
+                 <input type="text" id="board" name="board">
+
+                 <label for="group">Group:</label>
+                 <input type="text" id="group" name="group">
+
+                 <label for="result">Result:</label>
+                 <input type="text" id="result" name="result">
+
+                 <label for="year">Year of Passing</label>
+                 <input type="text" id="year" name="year">
+       
+
+            
+                <h2>S.S.C(Secondary School Certificate)</h2>
+                <label for="school">Institute Name:</label>
+                <input type="text" id="school" name="school">
+
+                 <label for="board">Board:</label>
+                 <input type="text" id="board-s" name="board-s">
+
+                 <label for="group">Group:</label>
+                 <input type="text" id="group-s" name="group-s">
+
+                 <label for="result-s">Result:</label>
+                 <input type="text" id="result-s" name="result-s">
+
+                 <label for="year">Year of Passing</label>
+                 <input type="text" id="year-s" name="year-s">
+             
+            </div>
+
+            <label for="language">Language Proficiency</label>
+            <span>Bangla</span> <input type="checkbox" name="bangla" value="Bangla">
+            <span>English</span> <input type="checkbox" name="English" value="English">
+
+            
+            <div class="skill">
+                <label for="computer">Computer Skills</label>
+                <textarea name="computer" id="computer" rows="3" cols="70"></textarea>
+                <label for="Personal">Personal Skills</label>
+                <textarea name="Personal" id="Personal" rows="3" cols="70"></textarea>
+                <label for="Self-Commitment">Self Commitment</label>
+                <textarea name="Self-Commitment" id="Self-Commitment" rows="3" cols="70"></textarea>
+            </div>
+
+            <div class="inteest">
+                <label for="inteest">inteest</label>
+                <textarea name="interest" id="interest" rows="3" cols="70"></textarea>
+            </div>
+          
+            
+            <div class="personal-details">
+                <label for="father">Father's Name</label>
+                <input type="text" name="father" id="father" >
+
+                <label for="mother">Mother's Name</label>
+                <input type="text" name="mother" id="mother" >
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" >
+
+                <div class="gender">
+                    <label for="gender">Sex</label>
+                <span>Male</span>   <input type="radio" name="gender" id="gender" value="Male">
+                <span>Female</span>   <input type="radio" name="gender" id="gender" value="Female">
+                </div>
+
+                 <label for="married-status">Marital Status</label>
+                 <select name="married-status" id="married-status">
+                   <option value="Married">Married</option>
+                   <option value="Unmarried">Unmarried</option>
+                   <option value="divoced">Divoced</option>
+                 </select>
+
+                 <label for="height">Height</label>
+                 <input type="text" name="height" id="height">
+
+                 <label for="nationality">Nationality</label>
+                 <input type="text" name="nationality" id="nationality">
+
+                 <label for="religion">Religion</label>
+                 <input type="text" name="religion" id="religion">
+
+                 <label for="address">Permanent Address</label>
+                 <textarea name="address" id="address" rows="3" cols="70"></textarea>
+
+                <div class="exp">
+                    <label for="exprience">Exprience</label>
+                    <textarea name="exprience" id="exprience" rows="3" cols="70"></textarea>
+   
+                    <label for="declaration">Declaration</label>
+                    <textarea name="declaration" id="declaration" rows="3" cols="70"></textarea>
+
+                </div>
+
+            </div>
+
+
+       <button type="submit">Create-cv</button>
+        </form>
+    </div>
+</body>
+</html>
